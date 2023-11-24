@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Criptomoedas</title>
+</head>
+<body>
+    <header>
+        <img src="imgs/logo_empresa.png" alt="Logo da Empresa" class="logo-empresa">
+    </header>
+
+    <div class="container">
+        <label for="criptomoedaSelect">Selecione uma criptomoeda:</label>
+        <select id="criptomoedaSelect" onchange="atualizarCard()">
+            <option value="" disabled selected>----</option>
+        </select>
+
+        <div id="criptomoedaCard" class="card">
+            <img id="logoCriptomoeda" alt="Logo Criptomoeda" class="logo">
+            <h2 id="nomeCriptomoeda"></h2>
+            <p id="siglaCriptomoeda"></p>
+            <p id="valorCriptomoeda"></p>
+            <p id="descricaoCriptomoeda"></p>
+            <p id="dataAtual"></p>
+        </div>
+
+        <input type="text" id="quantidadeInput" placeholder="Digite a quantidade em R$">
+        <button id="limparButton" onclick="limparCampos()">Limpar</button>
+        <button id="converterButton">Converter</button>
+        <p id="resultadoConversao"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

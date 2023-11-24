@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "nome": "Bitcoin",
+      "sigla": "BTC",
+      "valor_atual": 60000.00,
+      "logo": "imgs/bitcoin.png",
+      "descricao": "O Bitcoin é a primeira e mais conhecida criptomoeda do mundo. Foi criado por uma pessoa (ou grupo) usando o pseudônimo Satoshi Nakamoto em 2009. É descentralizado e baseado em uma tecnologia chamada blockchain."
+    },
+    {
+      "id": 2,
+      "nome": "Ethereum",
+      "sigla": "ETH",
+      "valor_atual": 4000.00,
+      "logo": "imgs/ethereum.png",
+      "descricao": "O Ethereum é uma plataforma descentralizada que permite a criação de contratos inteligentes e aplicativos descentralizados (DApps). Sua moeda nativa é o Ether (ETH)"
+    },
+    {
+      "id": 3,
+      "nome": "Binance Coin",
+      "sigla": "BNB",
+      "valor_atual": 500.00,
+      "logo": "imgs/binance.png",
+      "descricao": "A Binance Coin é a criptomoeda nativa da Binance, uma das maiores exchanges de criptomoedas do mundo. Ela é usada para pagar taxas na plataforma Binance e também pode ser usada em vários casos de uso."
+      
+    },
+    {
+      "id": 4,
+      "nome": "Cardano",
+      "sigla": "ADA",
+      "valor_atual": 2.00,
+      "logo": "imgs/cardano.png",
+      "descricao": "Cardano é uma plataforma de contrato inteligente de terceira geração que se concentra em segurança e escalabilidade. Seu objetivo é fornecer uma infraestrutura mais equitativa e sustentável para o desenvolvimento de DApps e contratos inteligentes."
+    },
+    {
+      "id": 5,
+      "nome": "Solana",
+      "sigla": "SOL",
+      "valor_atual": 180.00,
+      "logo": "imgs/solana.png",
+      "descricao": "Solana é uma plataforma de blockchain de alto desempenho projetada para suportar aplicativos descentralizados de alta performance e transações rápidas a baixo custo. É conhecida por sua escalabilidade."
+    }
+  ]
+  
